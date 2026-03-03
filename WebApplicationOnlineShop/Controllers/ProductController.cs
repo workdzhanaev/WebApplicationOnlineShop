@@ -6,8 +6,8 @@ namespace WebApplicationOnlineShop.Controllers
     public class ProductController : Controller
     {
 
-        Product cheburek = new Product("Чебурек", "с вишней", 80);
-        Product pie = new Product("Пирожок с мясом","с кошками", 50);
+        Product cheburek = new Product("Чебурек", "с вишней", 80000);
+        Product pie = new Product("Пирожок с мясом","с кошками", 50000);
         
         public IActionResult Detalies(int ind)
         {
